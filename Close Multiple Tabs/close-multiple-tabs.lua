@@ -3,7 +3,7 @@ local MAX_NUM_LOOPS = 2000
 
 -- Config options END
 
-local debugMode = true
+local debugMode = false
 
 -- TabData class
 TabData = {sprite = nil, frameNum = 0}
