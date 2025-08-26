@@ -6,7 +6,7 @@ Close Multiple Tabs is an Aseprite plugin that adds several ways to close multip
 
 1. Download [VSCode](https://code.visualstudio.com/download)
 1. Add Lua (by sumneko) and markdownlint extensions to VSCode
-1. Clone repo from Github
+1. Clone repo from [Github](https://github.com/bjyoung/Close-Multiple-Tabs)
 
 ## Generating the Extension
 
@@ -15,6 +15,10 @@ Close Multiple Tabs is an Aseprite plugin that adds several ways to close multip
 1. Right-click on the `Close Multiple Tabs` folder > `Compress to ZIP file`. If you don't have that option, use any compression method to ZIP the folder.
 1. Rename the ZIP file extension to `.aseprite-extension`
 1. Double-click the `.aseprite-extension` file to install the extension.
+
+## Links
+
+- [Source code](https://github.com/bjyoung/Close-Multiple-Tabs)
 
 ## License
 
