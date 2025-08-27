@@ -2,6 +2,15 @@
 
 Close Multiple Tabs is an Aseprite plugin that adds several ways to close multiple tabs in Aseprite at once.
 
+Adds extra options to the tab context menu (right-click on a tab):
+
+- Close Others
+- Close to the Left
+- Close to the Right
+- Close Row
+
+These options only affect the tab row that you right-clicked on.
+
 ## Setup Development Environment (Windows)
 
 1. Download [VSCode](https://code.visualstudio.com/download)
@@ -15,6 +24,14 @@ Close Multiple Tabs is an Aseprite plugin that adds several ways to close multip
 1. Right-click on the `Close Multiple Tabs` folder > `Compress to ZIP file`. If you don't have that option, use any compression method to ZIP the folder.
 1. Rename the ZIP file extension to `.aseprite-extension`
 1. Double-click the `.aseprite-extension` file to install the extension.
+
+## Limitations
+
+- Due to the limited tab options in the Aseprite API, there are several slight side effects
+- The plugin creates the dummy file and a dummy frame in order to determine which tabs it should close, then removes them
+  - Sometimes you can see the dummy file being removed
+  - This causes the active tab becomes "modified" after closing multiple tabs
+- If any of the tabs to be closed are also modified, you cannot use the "Cancel" button in the save dialog - it will lead to an infinite loop
 
 ## Links
 
